@@ -1,0 +1,239 @@
+ *{
+    padding: 0;
+    margin: 0;
+    color: white;
+    text-decoration: none; 
+} 
+
+ #amazonNavbar{
+    background-color: black;
+    height: 60px;
+}
+
+#amazon{
+    background-color: #f08804;
+    size: 3px;
+}
+
+#logo{
+    color:#f08804 ;
+    font-size: 25px;
+}
+
+a{
+    margin-right: 200px;
+}
+
+#box{
+    background-color:blue;
+}
+
+.heading{
+    color:rgb(255, 00,00);
+}
+
+button{
+    background-color: #00ff00;
+}
+
+#w {
+    background-color: aqua;
+    color: black;
+    font-family: 'Times New Roman' ;
+}
+
+#first{
+    font-size: 25px;
+    color: darkmagenta;
+}
+
+#second{
+    font-size: 10px;
+    color: darkgreen;
+}
+
+#head{
+    text-align: center;
+    text-transform: capitalize;
+}
+
+#boxmodel {
+    height: 100px;
+    width: 100px;
+    background-color: green;
+    border-radius: 50%;
+}
+
+#content{
+    height: 200px;
+}
+#content1{
+    height: 100px;
+    width: 100px;
+    border-width: 2px;
+    border: 2px dashed blueviolet;
+    background-color: rgba(234, 67, 88, 0.5);
+    display: inline-block;
+
+}
+
+#content2{
+    height: 100px;
+    width: 100px;
+    border-width: 2px;
+    border: 2px dashed blueviolet;
+    background-color: rgba(55, 46, 200, 0.5);
+    display: inline-block;
+}
+#content3{
+    height: 100px;
+    width: 100px;
+    border-width: 2px;
+    border: 2px dashed blueviolet;
+    background-color: rgba(100, 190,70, 0.5);
+    display: inline-block;
+}
+
+#areafooter{
+    background-color: black;
+    text-align: center; 
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:20px ;
+    font-weight: 700;
+}
+
+#contentborder{
+    border: 4px solid red;
+}
+
+p{
+    color: black;
+}
+#backgroundcolor2{
+    height: 200px;
+    width: 200px;
+    background-image: url(photo_rabbit.jpg);
+    background-size: cover;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+}
+
+ul{
+    border:2px solid black;
+    height: 80px;
+    width: 1000px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+li{
+    height: 80px;
+    width: 80px;
+    display: inline-block;
+    background-color: rgb(188, 17, 20);
+    /* text-align: center; */
+    list-style-type: none;
+}
+
+#flex1{
+    height: 5px;
+    width: 100px;
+    background-color: turquoise;
+    padding: 300px;
+}
+
+#flex2{
+    height: 50px;
+    width: 50px;
+    background-color: coral;
+}
+
+#priority{
+    height: 200px;
+    width: 1000px;
+    background-color: lightblue;
+   display: flex;
+   align-items: center;
+   justify-content: space-evenly;
+
+}
+
+#div{
+    height:50px;
+    width: 50px;
+    background-color: blueviolet;
+    display: inline-block;
+}
+
+#div1{
+    height:50px;
+    width: 50px;
+    background-color: blueviolet;
+    display: inline-block;
+    display: flex;
+    align-self: flex-end;
+}
+
+#mediaQuery{
+    height: 50px;
+    width: 50px;
+    background-color: chocolate;
+}
+
+@media (max-width:300px)
+{
+    #mediaQuery{
+    height: 50px;
+    width: 50px;
+    background-color: green;
+    }
+}
+
+@media (min-width:300px)and(max-width:400px)
+{
+    #mediaQuery{
+    /* height: 50px;
+    width: 50px; */
+    background-color:pink;
+    }
+}
+
+@media (min-width:400px)and(max-width:600px)
+{
+    #mediaQuery{
+    height: 50px;
+    width: 50px;
+    background-color:red;
+    }
+}
+
+@media (min-width:600px)
+{
+    #mediaQuery{
+    height: 50px;
+    width: 50px;
+    background-color:blue;
+    }
+}
+
+#circle{
+    height: 100px;
+    width: 100px;
+    border: 20px solid gray;
+    border-right: 4px solid black;
+    /* background-color: rgb(219, 158, 136); */
+    border-radius: 50%;
+    margin-left: 500px;
+    animation: lodder 2s ease-in 0s infinite normal;
+}
+
+@keyframes lodder{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
