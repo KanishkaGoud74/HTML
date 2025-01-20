@@ -1,10 +1,10 @@
 # HTML
 
 SAMLE PORTFOLIO:
-https://kanishkagoud.github.io/HTML/
+https://kanishkagoud74.github.io/HTML/
 
 TRAFFIC LIGHT:
-https://kanishkagoud.github.io/HTML/Traffic%20light/
+https://kanishkagoud74.github.io/HTML/Traffic%20light/
 
 LEARNING JOURNEY:
-https://kanishkagoud.github.io/HTML/Learning%20Journey/
+https://kanishkagoud74.github.io/HTML/Learning%20Journey/
